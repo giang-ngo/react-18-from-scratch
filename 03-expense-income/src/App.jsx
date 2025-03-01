@@ -1,14 +1,6 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './App.css';
-[
-    {
-        name: 'Salary',
-        amount: 5000,
-        type: 'income',
-        date: '',
-    },
-];
 
 function App() {
     const [statements, setStatements] = useState([]);
