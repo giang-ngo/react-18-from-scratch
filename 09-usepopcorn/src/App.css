@@ -8,6 +8,8 @@
   border-radius: 0.9rem;
 }
 
+
+
 .main {
   margin-top: 2.4rem;
   height: calc(100vh - 7.2rem - 3 * 2.4rem);
@@ -22,6 +24,8 @@
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
   /* overflow: scroll; */
+  overflow-y: scroll;
+  height: 100%;
   position: relative;
 }
 
@@ -105,7 +109,8 @@
 .list {
   list-style: none;
   padding: 0.8rem 0;
-  /* overflow: scroll; */
+  /* overflow-y: scroll;
+  height: 100%; */
 }
 
 .list-watched {
@@ -305,4 +310,3 @@
   align-items: center;
   justify-content: center;
 }
-
