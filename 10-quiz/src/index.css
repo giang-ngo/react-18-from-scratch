@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Codystar&display=swap");
 
-:root {
-  --color-darkest: #343a40;
-  --color-dark: #495057;
-  --color-medium: #ced4da;
-  --color-light: #f1f3f5;
 
-  --color-theme: #1098ad;
-  --color-accent: #ffa94d;
+
+:root {
+  --color-darkest: #1e1e2f;
+  --color-dark: #2d2d44;
+  --color-medium: #9aa0b5;
+  --color-light: #f8f9fa;
+  --color-theme: #0dcaf0;
+  --color-accent: #ffc107;
 }
+
+
 
 * {
   margin: 0;
